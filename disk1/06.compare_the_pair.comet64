@@ -1,0 +1,8 @@
+int = input;
+reg = input;
+check int < reg;
+jump if false: end;
+int = reg;
+
+end:
+output = int;

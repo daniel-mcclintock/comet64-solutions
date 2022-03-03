@@ -1,0 +1,7 @@
+reg = input / 4;
+int = reg;
+
+reg = reg - int;
+reg = reg * 4;
+
+output = reg;

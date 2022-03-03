@@ -1,0 +1,10 @@
+being:
+reg = input;
+
+int = reg / 4;
+int = int * 4;
+check int = 3;
+
+jump if false: begin;
+
+output = reg;

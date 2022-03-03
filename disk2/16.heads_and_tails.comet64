@@ -1,0 +1,24 @@
+begin:
+int++;
+check input = heads;
+jump if false: no;
+reg++;
+
+no:
+check int = 100;
+jump if true: checker;
+jump to: begin;
+
+checker:
+check reg > 50;
+jump if true: heads;
+check reg = 50;
+jump if false: tails;
+
+output = draw;
+
+heads:
+output = heads;
+
+tails:
+output = tails;

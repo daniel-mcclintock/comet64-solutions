@@ -1,0 +1,9 @@
+reg = input;
+int = int + reg;
+
+check reg = 0;
+jump if false: end;
+output = int;
+int = 0;
+reg = 0;
+end:

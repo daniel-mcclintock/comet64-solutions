@@ -1,0 +1,16 @@
+int = input;
+reg = input;
+
+check int > reg;
+jump if true: third;
+int = reg;
+
+third:
+reg = input;
+
+check int > reg;
+jump if true: end;
+int = reg;
+
+end:
+output = int;

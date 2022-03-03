@@ -1,0 +1,22 @@
+int = input; //0
+reg = input; //1
+check int < reg;
+switch reg;
+// int = 0, switch = 1
+jump if true: next;
+
+switch int; //int = 1
+// int = 1, switch = 0
+
+next:
+reg = input; //2
+check int > reg;
+jump if true: end; //int == middle
+switch int;
+check int < reg;
+jump if true: end;
+int = reg;
+
+end:
+output = int;
+

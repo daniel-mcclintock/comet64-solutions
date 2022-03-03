@@ -1,0 +1,10 @@
+int = input;
+reg = 1;
+output = 1;
+
+it:
+output = reg;
+reg = reg / 62; // this is probably wrong right?
+reg = reg * 100;
+check reg > int;
+jump if false: it;

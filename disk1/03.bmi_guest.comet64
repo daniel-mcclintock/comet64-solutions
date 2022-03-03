@@ -1,0 +1,5 @@
+int = input;
+reg = input;
+reg = reg * reg;
+reg = int / reg;
+output = reg;

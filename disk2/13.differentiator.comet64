@@ -1,0 +1,4 @@
+int = input - input;
+int = int * int;
+check int > 25;
+output = bool;

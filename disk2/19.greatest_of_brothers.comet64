@@ -1,0 +1,14 @@
+int = input;
+
+begin:
+check input = null;
+jump if true: end;
+
+reg = input;
+check reg < int;
+jump if true: begin;
+int = reg;
+jump to: begin;
+
+end:
+output = int;
